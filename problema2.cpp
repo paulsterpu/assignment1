@@ -10,7 +10,7 @@ using namespace std;
 
 int main(){
 
-int variante,n,i,j,nr,l,ajustari = 0,it,cost;
+int variante, n, i, j, nr, l, ajustari = 0, it, cost;
 
 FILE * fin = fopen("evaluare.in", "r");
 FILE * fout = fopen("evaluare.out", "w");

@@ -12,7 +12,7 @@ int main(){
 vector<string> cuvinte;		
 //lista de cuvinte citite din fisier
 
-int n,i,j,k,nrmutari,nr,count;
+int n, i, j, k, nrmutari, nr, count;
 
 char c[360],o;
 
