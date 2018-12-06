@@ -29,13 +29,11 @@ fscanf( fin , "%d" , &n );
 
 	for ( i = 0 ; i < n ; i++ ) {		
 		//iau pe rand fiecare cuvant din lista de cuvinte
-
 		nrmutari = 0;
-
-		//mai intai verific ca cuvantul curent poate fi palindrom
 
 		nr = 0;		//numarul de litere cu nr impar de aparitii in cuvant
 
+        //mai intai verific ca cuvantul curent poate fi palindrom
 		for ( o = 97 ; o <= 122 ; o++ ) {
 			//pentru fiecare litera mica din alfabet
 
